@@ -5,12 +5,35 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-    sans-serif;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
 }
 
 button:disabled {
   opacity: 0.5;
+}
+
+.headerMenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.headerMenu li {
+  float: left;
+}
+
+.headerMenu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.headerMenu li a:hover {
+  background-color: #111;
+  color: white;
 }
